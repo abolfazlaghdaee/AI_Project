@@ -1,4 +1,4 @@
-![Link to My Git Repository](/g1.gif)
+![Link to My Git Repository](g1.gif)
 
 
 In this Section of project Implemented Genetic Algorithm for solving the Problem. 
