@@ -4,57 +4,71 @@ import random
 
 
 def First_POP(POP_size, num_vertex):
-    population = []
+    POP = []
 
 
     for _ in range(POP_size):
 
         coromom = list(range(num_vertex))
         random.shuffle(coromom)
-        population.append(coromom)
+        POP.append(coromom)
 
 
 
-    return population
+    return POP
 
 
 
 
-def calcFitness(individual, graph):
-    total_time = 0
-    vertices_covered = set()
+def Fitness(cormome, graph):
+    TIME = 0
+    
+    vertex_covered = set()
 
     
-    for i in range(len(individual)- 1):
-        root, target = individual[i], individual[i+1]
-        if graph[root][target] != 0:
-            total_time += graph[root][target]
-            vertices_covered.add(target)
+    for i in range(len(cormome)- 1):
+        root, target = cormome[i], cormome[i+1]
+
+
+        if graph[root][target]!= 0:
+
+            TIME += graph[root][target]
+            vertex_covered.add(target)
 
 
 
-    return total_time, len(vertices_covered)
+    return TIME, len(vertex_covered)
 
 
-def crossover(parent1, parent2):
+def Crossover(parent_one, parent_two):
 
 
-    crossover_point = random.randint(1, len(parent1)-1)
+    point_of_crossover = random.randint(1,len(parent_one)-1)
 
-    child1 = parent1[:crossover_point] + [gene for gene in parent2 if gene not in parent1[:crossover_point]]
-    child2 = parent2[:crossover_point] + [gene for gene in parent1 if gene not in parent2[:crossover_point]]
-
-
-    return child1, child2
+    child_one = parent_one[:point_of_crossover] +[gen for gen in parent_two if gen not in parent_one[:point_of_crossover]]
+    child_two = parent_two[:point_of_crossover] +[gen for gen in parent_one if gen not in parent_two[:point_of_crossover]]
 
 
-def mutate(coromom):
+    return child_one,child_two
 
 
-    mutation_point1 = random.randint(0, len(coromom)- 1)
-    mutation_point2 = random.randint(0, len(coromom)- 1)
+def Mutate(coromom):
+    """
+    Note that this function is used for mutation 4 points 
+    but instead we can apply this function for 2 points
+    but I ran this function for 2 points and the result was not perfect, but whne i used for 4 point I got better results.  
+    
+    """
+
+
+    mutation_point1 = random.randint(0,len(coromom)- 1)
+    mutation_point2 = random.randint(0,len(coromom)- 1)
+
+    # mutation_point3 = random.randint(0,len(coromom)- 1)
+    # mutation_point4 = random.randint(0,len(coromom)- 1)
 
     coromom[mutation_point1], coromom[mutation_point2] = coromom[mutation_point2], coromom[mutation_point1]
+    # coromom[mutation_point3], coromom[mutation_point4] = coromom[mutation_point4], coromom[mutation_point3] 
 
 
     return coromom
