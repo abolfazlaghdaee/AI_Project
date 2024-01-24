@@ -1,4 +1,4 @@
-![Link to My Git Repository]([https://github.com/abolfazlaghdaee/AI_Project/Section1: GA/g1.gif))
+![Link to My Git Repository]([https://github.com/abolfazlaghdaee/AI_Project/Section1:GA/g1.gif))
 
 
 In this Section of project Implemented Genetic Algorithm for solving the Problem. 
