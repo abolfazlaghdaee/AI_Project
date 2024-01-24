@@ -1,5 +1,4 @@
-![Link to My Git Repository](https://github.com/abolfazlaghdaee/AI_Project/Section1:GA/g1.gif)
-
+![g1](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/b2d067ae-7d0d-4769-9104-e8ce78e54d23)
 
 In this Section of project Implemented Genetic Algorithm for solving the Problem. 
 this project is related to the <u>[**Burning Graph**](#Burning-Graph-in-Computer-Science)</u> problem.
@@ -12,6 +11,7 @@ this project is related to the <u>[**Burning Graph**](#Burning-Graph-in-Computer
 
 
 after inserting the files in your local just run the bellow command
+
 
 ```
 python GA.py
