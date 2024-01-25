@@ -1,4 +1,6 @@
-![Link to My Git Repository](/g1.gif)
+
+
+![Link to My Git Repository](g1.gif)
 
 
 In this Section of project Implemented Genetic Algorithm for solving the Problem. 
@@ -18,6 +20,28 @@ python GA.py
 ```
 :)
 
+## Results:
+
+
+### Input:
+
+A adjacency matrix of a graph with n vertex like this:
+
+>n=5
+
+
+![Alt text](Visualization/image.png)
+
+
+
+### Output
+
+- Best path for propagate or burning
+- Best Time 
+- Number of vetexes
+  
+  
+![Alt text](Visualization/image-2.png)
 ## About the Project:
 > the project contains two files 
 > 1. `GA.py` which contains the main code.
