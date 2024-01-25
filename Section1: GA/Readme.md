@@ -1,4 +1,4 @@
-![g1](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/b2d067ae-7d0d-4769-9104-e8ce78e54d23)
+![gg1](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/5667066f-2ae4-4d0d-98ae-937cc19f133e)
 
 In this Section of project Implemented Genetic Algorithm for solving the Problem. 
 this project is related to the <u>[**Burning Graph**](#Burning-Graph-in-Computer-Science)</u> problem.
