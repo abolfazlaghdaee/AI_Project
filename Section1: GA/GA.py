@@ -16,7 +16,7 @@ graph = np.array([[0, 3, 1, 0, 0],
 
 
 
-def genetic_algorithm(graph,POP_size=50, generation= 1000):
+def genetic_algorithm(graph,POP_size=50, generation= 500):
     num_vertex = graph.shape[0]
 
 
@@ -52,7 +52,7 @@ def genetic_algorithm(graph,POP_size=50, generation= 1000):
 
         for i in range(0, POP_size, 2):
 
-            parent1, parent2 =select_POP [i], select_POP [i+1]
+            parent1,parent2=select_POP [i], select_POP [i+1]
             
             child1, child2 = Crossover(parent1, parent2)
             new_POP.extend([child1, child2])
@@ -78,7 +78,7 @@ def genetic_algorithm(graph,POP_size=50, generation= 1000):
 
 
 
-    return best_coromom, time, vertices
+    return best_coromom,time, vertices
 
 
 
