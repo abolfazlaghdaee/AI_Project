@@ -1,6 +1,4 @@
 
-![x2mate com-particleswarmoptimisationPSOalgorithmin30secs-1080p-ezgif com-video-to-gif-converter](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/b52216d2-1ef8-48e2-996e-5723cf3b31a8)
-
 
 ### There is some References link that used in this project:
 ---
