@@ -2,7 +2,7 @@
 ![x2mate com-NSGAIIParetoFrontMulti-objectiveOptimization WDSystemRehabilitationPlanning -480p-ezgif com-video-to-gif-converter](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/eb1c6699-2225-48a8-9aad-8eab380f2ca8)
 ## Overview of NSGA-II Algorithm
 
-*You can find the full details of the algorithm in the above pdf file.*
+*You can find the full details of the algorithm in the [my pdf](https://github.com/abolfazlaghdaee/AI_Project/blob/main/Section2%3A%20Research%20NGSA-II/Section2_%20NSGA-II.pdf) file.*
 
 [and I recommaned to watch this video](https://youtu.be/SL-u_7hIqjA?si=7QDx09KMT7afPrbm)
 NSGA-II (Non-dominated Sorting Genetic Algorithm II) is a popular multi-objective optimization algorithm. It is an evolutionary algorithm that uses a form of genetic representation and fitness-based selection to guide the search for optimal solutions. It is particularly well-suited for problems where the goal is to optimize multiple conflicting objectives.
