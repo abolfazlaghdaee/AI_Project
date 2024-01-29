@@ -1,4 +1,5 @@
 ## NSGA-II (Non-dominated Sorting Genetic Algorithm II)
+![Uploading x2mate.com-NSGAIIParetoFrontMulti-objectiveOptimization.WDSystemRehabilitationPlanning.-480p-ezgif.com-video-to-gif-converter.gif…](animation)
 
 
 ### overview of NSGA-II:
