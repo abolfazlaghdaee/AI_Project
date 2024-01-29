@@ -61,14 +61,14 @@ def Mutate(coromom):
     """
 
 
-    mutation_point1 = random.randint(0,len(coromom)- 1)
-    mutation_point2 = random.randint(0,len(coromom)- 1)
+    mutation_point1= random.randint(0,len(coromom)- 1)
+    mutation_point2= random.randint(0,len(coromom)- 1)
 
-    mutation_point3 = random.randint(0,len(coromom)- 1)
-    mutation_point4 = random.randint(0,len(coromom)- 1)
+    mutation_point3=random.randint(0,len(coromom)- 1)
+    mutation_point4=random.randint(0,len(coromom)- 1)
 
-    coromom[mutation_point1], coromom[mutation_point2] = coromom[mutation_point2], coromom[mutation_point1]
-    coromom[mutation_point3], coromom[mutation_point4] = coromom[mutation_point4], coromom[mutation_point3] 
+    coromom[mutation_point1],coromom[mutation_point2]= coromom[mutation_point2], coromom[mutation_point1]
+    coromom[mutation_point3],coromom[mutation_point4]= coromom[mutation_point4], coromom[mutation_point3] 
 
 
     return coromom

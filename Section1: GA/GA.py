@@ -5,7 +5,7 @@
 
 import random
 import numpy as np  
-from functions import Fitness, Crossover, Mutate, First_POP #Imported from functions.py file to calculate fitness
+from functions import Fitness, Crossover, Mutate, First_POP #Imported from functions.py file 
 
 
 graph = np.array([[0, 3, 1, 0, 0],
@@ -20,7 +20,7 @@ def genetic_algorithm(graph,POP_size=50, generation= 500):
     num_vertex = graph.shape[0]
 
 
-    POP  = First_POP(POP_size, num_vertex)
+    POP=First_POP(POP_size, num_vertex)
 
 
 
@@ -89,8 +89,8 @@ def genetic_algorithm(graph,POP_size=50, generation= 500):
 if __name__ == "__main__":
 
 
-    print("My Graph is:","\n",graph)
+   
     best_path, time, vertices = genetic_algorithm(graph)
-    print("Best Path for Burning my graph", best_path)
-    print("Time", time)
-    print("Vertex", vertices)
+    # print("Best Path for Burning my graph", best_path)
+    # print("Time", time)
+    # print("Vertex", vertices)

@@ -1,6 +1,26 @@
+## Section4: Research about MOPSO Algorithm
+
+## Overview of MOPSO Algorithm
+
+*You can find the full details of the algorithm in the above pdf file.*
+
+MOPSO (Multi-Objective Particle Swarm Optimization) is an extension of the classical particle swarm optimization (PSO) algorithm to handle multi-objective optimization problems. 
+
+### Key Concepts of MOPSO
+
+- **Particle Swarm Optimization (PSO)**
+
+- **Pareto Dominance**
+
+- **Repository or Archive**
+
+- **Fitness Assignment**
+- **Leader Selection**
+- **Mutation**
 
 
-### There is some References link that used in this project:
+
+### There is some References link that used in this section:
 ---
 
 - [Reference one](https://jme.shahroodut.ac.ir/article_492_0035dffdbec9be55935fff2f29a7f3e7.pdf)

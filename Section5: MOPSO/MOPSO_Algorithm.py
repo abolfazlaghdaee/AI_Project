@@ -22,7 +22,7 @@ graph = np.array([
 
 
 graph = convert_matrix(graph)
-print ('my graph is:',graph)
+
 
 
 
@@ -31,7 +31,7 @@ def mopso_algorithm(graph, num_POP=30, iter=100, w=0.5, c1=1, c2=2):
     
     POP = np.empty((num_POP, num_vertex), dtype=int)
     for i in range(num_POP):
-        POP[i] = np.random.permutation(num_vertex)# generate new POpulation 
+        POP[i] = np.random.permutation(num_vertex)
 
 
 
@@ -43,7 +43,7 @@ def mopso_algorithm(graph, num_POP=30, iter=100, w=0.5, c1=1, c2=2):
     best_times = np.empty(len(POP))
 
     for i in range(len(POP)):
-        best_times[i] = calc_time(POP[i], graph) # Evaluate time of each path
+        best_times[i] = calc_time(POP[i], graph) 
     
 
     min_index = 0
@@ -59,20 +59,21 @@ def mopso_algorithm(graph, num_POP=30, iter=100, w=0.5, c1=1, c2=2):
 
     global_best_time = np.min(best_times)
     
-    for i in range(iter): # for updateing vel or velocity
-       
+    for i in range(iter): 
 
         R1 = np.random.uniform(0, 1,(num_POP, num_vertex))
         R2 = np.random.uniform(0, 1,(num_POP, num_vertex))
 
-        vel = w * vel + c1 * R1 *(PBest- POP) + c2 * R2 *(globalbest_path-POP)
+        vel = w* vel+ c1 *R1 *(PBest- POP) + c2* R2* (globalbest_path-POP)
         
         
         POP = update_paths(POP, vel)
         
         
         times = np.empty(len(POP))
-        for i in range(len(POP)):# calc time of each path
+
+
+        for i in range(len(POP)):
             times[i] = calc_time(POP[i], graph)
         
    
@@ -101,8 +102,8 @@ def mopso_algorithm(graph, num_POP=30, iter=100, w=0.5, c1=1, c2=2):
 
 
 if __name__ == "__main__":
-        best_path, best_time = mopso_algorithm(graph)
+        best_path, best_time =mopso_algorithm(graph)
 
-        print('Best Path:', best_path)
-        print('Best Time:', best_time)
-        print('Number of Vertices:',len(best_path))
+        # print('Best Path:', best_path)
+        # print('Best Time:', best_time)
+        # print('Number of Vertices:',len(best_path))
