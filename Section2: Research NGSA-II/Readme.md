@@ -1,5 +1,5 @@
 ## Section 2: Research about NGSA-II Algorithm
-
+![x2mate com-NSGAIIParetoFrontMulti-objectiveOptimization WDSystemRehabilitationPlanning -480p-ezgif com-video-to-gif-converter](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/eb1c6699-2225-48a8-9aad-8eab380f2ca8)
 ## Overview of NSGA-II Algorithm
 
 *You can find the full details of the algorithm in the above pdf file.*
