@@ -91,6 +91,6 @@ if __name__ == "__main__":
 
    
     best_path, time, vertices = genetic_algorithm(graph)
-    # print("Best Path for Burning my graph", best_path)
-    # print("Time", time)
-    # print("Vertex", vertices)
+    print("Best Path for Burning my graph", best_path)
+    print("Time", time)
+    print("Vertex", vertices)
