@@ -1,7 +1,7 @@
 # AI_Project
-Final Artificiall Intelligence 111521 Project that offered by Dr. Shamaee
+Final Artificial Intelligence 111521 Project offered by Dr. Shamaee
 
-> You can find the whole consept of project in this [Link](https://github.com/abolfazlaghdaee/AI_Project/blob/main/AI1402_FinalProject.pdf)
+> You can find the whole concept of the project in this [Link](https://github.com/abolfazlaghdaee/AI_Project/blob/main/AI1402_FinalProject.pdf)
 
 ## [🧬Genetic Alogrithm ](https://github.com/abolfazlaghdaee/AI_Project/tree/main/Section1%3A%20GA):
 
@@ -20,6 +20,6 @@ NSGA-II (Non-dominated Sorting Genetic Algorithm II) is a popular multi-objectiv
 
 ![x2mate com-particleswarmoptimisationPSOalgorithmin30secs-1080p-ezgif com-video-to-gif-converter](https://github.com/abolfazlaghdaee/AI_Project/assets/69028985/4b55fa6b-83a6-44ea-bb85-aa6009afc2ca)
 
-MOPSO is a multi-objective optimization algorithm that is based on the concept of particle swarm optimization (PSO). It is designed to find the Pareto-optimal set of solutions in a multi-objective optimization problem. MOPSO is a population-based algorithm that maintains a set of candidate solutions and iteratively improves them through the application of PSO operators such as velocity update and position update. It is particularly well-suited for problems where the goal is to optimize multiple conflicting objectives.
+MOPSO is a multi-objective optimization algorithm based on particle swarm optimization (PSO). It is designed to find the Pareto-optimal set of solutions in a multi-objective optimization problem. MOPSO is a population-based algorithm that maintains a set of candidate solutions and iteratively improves them through the application of PSO operators such as velocity update and position update. It is particularly well-suited for problems where the goal is to optimize multiple conflicting objectives.
 
 
